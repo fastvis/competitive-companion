@@ -64,6 +64,7 @@ import { CPythonUZProblemParser } from './problem/CPythonUZProblemParser';
 import { CSAcademyProblemParser } from './problem/CSAcademyProblemParser';
 import { CSESProblemParser } from './problem/CSESProblemParser';
 import { CSUACMOnlineJudgeProblemParser } from './problem/CSUACMOnlineJudgeProblemParser';
+import { DeeplearningProblemParser } from './problem/DeeplearningProblemParser';
 import { DimikOJProblemParser } from './problem/DimikOJProblemParser';
 import { DMOJProblemParser } from './problem/DMOJProblemParser';
 import { ECNUOnlineJudgeProblemParser } from './problem/ECNUOnlineJudgeProblemParser';
@@ -332,4 +333,5 @@ export const parsers: Parser[] = [
 
   new ZUFEOJProblemParser(),
   new ZUFEOJContestParser(),
+  new DeeplearningProblemParser(),
 ];
